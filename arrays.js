@@ -42,7 +42,7 @@ let arr5 = ["the", "way", "x", 4];
 let text = "way";
 let textIndex = arr5.indexOf(text);
 
-if (text){console.log({text})}
+if (text==arr5[1]){console.log({text})}
 else{console.log("The search was not found ")}
 
 //Q6
